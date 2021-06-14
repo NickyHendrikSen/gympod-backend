@@ -25,4 +25,14 @@ class UserController extends Controller
             'access_token' => $authToken
         ]);
     }   
+
+    function logoutAttempt(Request $request){
+        $user = User::where('id', $request->id)->first();
+        try{
+            $user->tokens()->delete();
+        }catch( Exception $e){
+            return response()->json(['error' => $e], 500);
+        }
+        return response()->json(['message' => 'success'], 200);
+    }
 }

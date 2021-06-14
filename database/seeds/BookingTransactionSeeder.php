@@ -15,7 +15,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -23,7 +23,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -31,7 +31,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -39,7 +39,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -47,7 +47,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -57,7 +57,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -65,7 +65,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -73,7 +73,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -81,7 +81,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -89,7 +89,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -97,7 +97,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -105,147 +105,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -255,7 +115,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -263,7 +123,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -271,7 +131,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -279,7 +139,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -287,7 +147,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -295,7 +155,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -303,147 +163,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -451,7 +171,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -459,7 +179,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -467,7 +187,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -477,7 +197,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -485,7 +205,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -493,7 +213,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -501,7 +221,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -509,7 +229,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -517,7 +237,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -525,7 +245,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -535,7 +255,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -543,7 +263,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -551,7 +271,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -559,7 +279,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -567,7 +287,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -575,7 +295,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -583,147 +303,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -731,7 +311,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -739,7 +319,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -747,7 +327,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -757,7 +337,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -765,7 +345,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -773,7 +353,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -781,7 +361,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -789,7 +369,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -797,7 +377,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -805,7 +385,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -815,7 +395,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -823,7 +403,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -831,7 +411,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -839,7 +419,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -847,7 +427,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -855,7 +435,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -863,147 +443,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1011,7 +451,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1019,7 +459,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1027,7 +467,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1037,7 +477,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1045,7 +485,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1053,7 +493,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1061,7 +501,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1069,7 +509,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1077,7 +517,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1085,7 +525,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1095,7 +535,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1103,7 +543,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1111,7 +551,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1119,7 +559,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1127,7 +567,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1135,7 +575,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1143,147 +583,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1291,7 +591,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1299,7 +599,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1307,7 +607,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1317,7 +617,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1325,7 +625,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1333,7 +633,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1341,7 +641,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1349,7 +649,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1357,7 +657,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1365,7 +665,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1375,7 +675,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1383,7 +683,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1391,7 +691,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1399,7 +699,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1407,7 +707,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1415,7 +715,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1423,147 +723,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1571,7 +731,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1579,7 +739,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1587,7 +747,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1597,7 +757,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1605,7 +765,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1613,7 +773,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1621,7 +781,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1629,7 +789,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1637,7 +797,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1645,7 +805,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1655,7 +815,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1663,7 +823,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1671,7 +831,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1679,7 +839,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1687,7 +847,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1695,7 +855,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1703,147 +863,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1851,7 +871,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1859,7 +879,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1867,7 +887,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1877,7 +897,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1885,7 +905,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1893,7 +913,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1901,7 +921,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1909,7 +929,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1917,7 +937,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1925,7 +945,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1935,7 +955,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1943,7 +963,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -1951,7 +971,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -1959,7 +979,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -1967,7 +987,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -1975,7 +995,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -1983,147 +1003,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2131,7 +1011,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2139,7 +1019,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2147,7 +1027,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2157,7 +1037,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2165,7 +1045,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2173,7 +1053,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2181,7 +1061,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2189,7 +1069,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2197,7 +1077,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2205,7 +1085,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2215,7 +1095,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2223,7 +1103,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2231,7 +1111,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2239,7 +1119,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2247,7 +1127,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2255,7 +1135,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2263,147 +1143,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2411,7 +1151,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2419,7 +1159,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2427,7 +1167,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2437,7 +1177,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2445,7 +1185,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2453,7 +1193,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2461,7 +1201,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2469,7 +1209,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2477,7 +1217,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2485,7 +1225,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2495,7 +1235,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2503,7 +1243,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2511,7 +1251,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2519,7 +1259,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2527,7 +1267,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2535,7 +1275,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2543,147 +1283,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2691,7 +1291,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2699,7 +1299,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2707,7 +1307,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2717,7 +1317,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2725,7 +1325,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2733,7 +1333,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2741,7 +1341,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2749,7 +1349,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2757,7 +1357,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2765,7 +1365,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2775,7 +1375,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2783,7 +1383,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2791,7 +1391,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2799,7 +1399,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2807,7 +1407,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2815,7 +1415,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -2823,147 +1423,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -2971,7 +1431,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -2979,7 +1439,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -2987,7 +1447,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -2997,7 +1457,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3005,7 +1465,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3013,7 +1473,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3021,7 +1481,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3029,7 +1489,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3037,7 +1497,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3045,7 +1505,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3055,7 +1515,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3063,7 +1523,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3071,7 +1531,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3079,7 +1539,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3087,7 +1547,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3095,7 +1555,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3103,147 +1563,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3251,7 +1571,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3259,7 +1579,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3267,7 +1587,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3277,7 +1597,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3285,7 +1605,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3293,7 +1613,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3301,7 +1621,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3309,7 +1629,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3317,7 +1637,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3325,7 +1645,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3335,7 +1655,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3343,7 +1663,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3351,7 +1671,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3359,7 +1679,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3367,7 +1687,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3375,7 +1695,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3383,147 +1703,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3531,7 +1711,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3539,7 +1719,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3547,7 +1727,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3557,7 +1737,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3565,7 +1745,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3573,7 +1753,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3581,7 +1761,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3589,7 +1769,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3597,7 +1777,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3605,7 +1785,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3615,7 +1795,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3623,7 +1803,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3631,7 +1811,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3639,7 +1819,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3647,7 +1827,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3655,7 +1835,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3663,147 +1843,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3811,7 +1851,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3819,7 +1859,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3827,7 +1867,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3837,7 +1877,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3845,7 +1885,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3853,7 +1893,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3861,7 +1901,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3869,7 +1909,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3877,7 +1917,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3885,7 +1925,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3895,7 +1935,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3903,7 +1943,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -3911,7 +1951,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -3919,7 +1959,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -3927,7 +1967,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -3935,7 +1975,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -3943,147 +1983,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4091,7 +1991,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4099,7 +1999,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4107,7 +2007,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4117,7 +2017,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4125,7 +2025,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4133,7 +2033,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4141,7 +2041,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4149,7 +2049,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4157,7 +2057,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4165,7 +2065,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4175,7 +2075,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4183,7 +2083,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4191,7 +2091,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4199,7 +2099,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4207,7 +2107,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4215,7 +2115,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4223,147 +2123,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 3,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 3,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-
-        
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-21 11:00:00',
-            'booking_end' => '2020-06-21 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-22 13:00:00',
-            'booking_end' => '2020-06-22 15:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 4,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-23 10:00:00',
-            'booking_end' => '2020-06-23 12:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 5,
-            'user_id' => 4,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-25 18:00:00',
-            'booking_end' => '2020-06-25 20:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 1,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
-            'booking_start' => '2020-06-20 11:00:00',
-            'booking_end' => '2020-06-20 13:00:00'
-        ]);
-        DB::table('booking_transactions')->insert([
-            'pod_id' => 2,
-            'user_id' => 2,
-            'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4371,7 +2131,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4379,7 +2139,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4387,7 +2147,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4397,7 +2157,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4405,7 +2165,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4413,7 +2173,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4421,7 +2181,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4429,7 +2189,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4437,7 +2197,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4445,7 +2205,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4455,7 +2215,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4463,7 +2223,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4471,7 +2231,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4479,7 +2239,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4487,7 +2247,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4495,7 +2255,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4503,7 +2263,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4511,7 +2271,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4519,7 +2279,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4527,7 +2287,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4537,7 +2297,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4545,7 +2305,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4553,7 +2313,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4561,7 +2321,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4569,7 +2329,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4577,7 +2337,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4585,7 +2345,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4595,7 +2355,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4603,7 +2363,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4611,7 +2371,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4619,7 +2379,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4627,7 +2387,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4635,7 +2395,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4643,7 +2403,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4651,7 +2411,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4659,7 +2419,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4667,7 +2427,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4677,7 +2437,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4685,7 +2445,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4693,7 +2453,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4701,7 +2461,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4709,7 +2469,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4717,7 +2477,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4725,7 +2485,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4735,7 +2495,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4743,7 +2503,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4751,7 +2511,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4759,7 +2519,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4767,7 +2527,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4775,7 +2535,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4783,7 +2543,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4791,7 +2551,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4799,7 +2559,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4807,7 +2567,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4817,7 +2577,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4825,7 +2585,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4833,7 +2593,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4841,7 +2601,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4849,7 +2609,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4857,7 +2617,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4865,7 +2625,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4875,7 +2635,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4883,7 +2643,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4891,7 +2651,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4899,7 +2659,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4907,7 +2667,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4915,7 +2675,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4923,7 +2683,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4931,7 +2691,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4939,7 +2699,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4947,7 +2707,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4957,7 +2717,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -4965,7 +2725,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -4973,7 +2733,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -4981,7 +2741,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -4989,7 +2749,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -4997,7 +2757,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5005,7 +2765,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5015,7 +2775,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5023,7 +2783,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5031,7 +2791,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5039,7 +2799,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5047,7 +2807,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5055,7 +2815,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5063,7 +2823,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5071,7 +2831,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5079,7 +2839,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5087,7 +2847,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5097,7 +2857,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5105,7 +2865,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5113,7 +2873,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5121,7 +2881,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5129,7 +2889,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5137,7 +2897,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5145,7 +2905,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5155,7 +2915,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5163,7 +2923,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5171,7 +2931,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5179,7 +2939,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5187,7 +2947,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5195,7 +2955,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5203,7 +2963,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5211,7 +2971,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5219,7 +2979,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5227,7 +2987,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5237,7 +2997,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5245,7 +3005,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5253,7 +3013,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5261,7 +3021,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5269,7 +3029,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5277,7 +3037,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5285,7 +3045,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5295,7 +3055,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5303,7 +3063,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5311,7 +3071,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5319,7 +3079,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5327,7 +3087,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5335,7 +3095,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5343,7 +3103,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5351,7 +3111,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5359,7 +3119,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5367,7 +3127,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5377,7 +3137,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5385,7 +3145,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5393,7 +3153,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5401,7 +3161,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5409,7 +3169,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5417,7 +3177,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5425,7 +3185,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5435,7 +3195,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5443,7 +3203,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5451,7 +3211,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5459,7 +3219,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5467,7 +3227,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5475,7 +3235,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5483,7 +3243,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5491,7 +3251,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5499,7 +3259,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5507,7 +3267,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5517,7 +3277,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5525,7 +3285,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5533,7 +3293,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5541,7 +3301,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5549,7 +3309,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5557,7 +3317,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5565,7 +3325,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5575,7 +3335,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5583,7 +3343,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5591,7 +3351,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5599,7 +3359,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5607,7 +3367,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5615,7 +3375,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5623,7 +3383,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5631,7 +3391,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5639,7 +3399,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5647,7 +3407,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5657,7 +3417,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5665,7 +3425,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5673,7 +3433,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5681,7 +3441,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5689,7 +3449,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5697,7 +3457,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5705,7 +3465,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5715,7 +3475,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5723,7 +3483,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5731,7 +3491,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5739,7 +3499,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5747,7 +3507,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5755,7 +3515,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5763,7 +3523,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5771,7 +3531,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5779,7 +3539,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5787,7 +3547,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5797,7 +3557,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5805,7 +3565,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5813,7 +3573,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5821,7 +3581,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5829,7 +3589,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5837,7 +3597,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5845,7 +3605,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5855,7 +3615,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5863,7 +3623,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5871,7 +3631,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5879,7 +3639,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5887,7 +3647,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5895,7 +3655,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5903,7 +3663,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5911,7 +3671,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5919,7 +3679,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5927,7 +3687,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5937,7 +3697,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -5945,7 +3705,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -5953,7 +3713,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -5961,7 +3721,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -5969,7 +3729,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5977,7 +3737,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5985,7 +3745,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -5995,7 +3755,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6003,7 +3763,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6011,7 +3771,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6019,7 +3779,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6027,7 +3787,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6035,7 +3795,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6043,7 +3803,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6051,7 +3811,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6059,7 +3819,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6067,7 +3827,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6077,7 +3837,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6085,7 +3845,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6093,7 +3853,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6101,7 +3861,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6109,7 +3869,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6117,7 +3877,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6125,7 +3885,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6135,7 +3895,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6143,7 +3903,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6151,7 +3911,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6159,7 +3919,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6167,7 +3927,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6175,7 +3935,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6183,7 +3943,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6191,7 +3951,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6199,7 +3959,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6207,7 +3967,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6217,7 +3977,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6225,7 +3985,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6233,7 +3993,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6241,7 +4001,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6249,7 +4009,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6257,7 +4017,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6265,7 +4025,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6275,7 +4035,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6283,7 +4043,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6291,7 +4051,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6299,7 +4059,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6307,7 +4067,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6315,7 +4075,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6323,7 +4083,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6331,7 +4091,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6339,7 +4099,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6347,7 +4107,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6357,7 +4117,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6365,7 +4125,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6373,7 +4133,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6381,7 +4141,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6389,7 +4149,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6397,7 +4157,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6405,7 +4165,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6415,7 +4175,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6423,7 +4183,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6431,7 +4191,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6439,7 +4199,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6447,7 +4207,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6455,7 +4215,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6463,7 +4223,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6471,7 +4231,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6479,7 +4239,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6487,7 +4247,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6497,7 +4257,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6505,7 +4265,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6513,7 +4273,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6521,7 +4281,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6529,7 +4289,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6537,7 +4297,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6545,7 +4305,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6555,7 +4315,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6563,7 +4323,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6571,7 +4331,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6579,7 +4339,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6587,7 +4347,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6595,7 +4355,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6603,7 +4363,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6611,7 +4371,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6619,7 +4379,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6627,7 +4387,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6637,7 +4397,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6645,7 +4405,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6653,7 +4413,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6661,7 +4421,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6669,7 +4429,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6677,7 +4437,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6685,7 +4445,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6695,7 +4455,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6703,7 +4463,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6711,7 +4471,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6719,7 +4479,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6727,7 +4487,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6735,7 +4495,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6743,7 +4503,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6751,7 +4511,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6759,7 +4519,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6767,7 +4527,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6777,7 +4537,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6785,7 +4545,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6793,7 +4553,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6801,7 +4561,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6809,7 +4569,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6817,7 +4577,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6825,7 +4585,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6835,7 +4595,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6843,7 +4603,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6851,7 +4611,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6859,7 +4619,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6867,7 +4627,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6875,7 +4635,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6883,7 +4643,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6891,7 +4651,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6899,7 +4659,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6907,7 +4667,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6917,7 +4677,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6925,7 +4685,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6933,7 +4693,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6941,7 +4701,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -6949,7 +4709,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6957,7 +4717,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6965,7 +4725,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -6975,7 +4735,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -6983,7 +4743,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -6991,7 +4751,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -6999,7 +4759,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7007,7 +4767,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7015,7 +4775,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7023,7 +4783,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7031,7 +4791,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7039,7 +4799,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7047,7 +4807,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7057,7 +4817,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7065,7 +4825,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7073,7 +4833,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7081,7 +4841,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7089,7 +4849,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7097,7 +4857,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7105,7 +4865,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7115,7 +4875,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7123,7 +4883,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7131,7 +4891,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7139,7 +4899,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7147,7 +4907,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7155,7 +4915,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7163,7 +4923,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7171,7 +4931,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7179,7 +4939,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7187,7 +4947,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7197,7 +4957,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7205,7 +4965,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7213,7 +4973,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7221,7 +4981,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7229,7 +4989,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7237,7 +4997,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7245,7 +5005,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7255,7 +5015,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7263,7 +5023,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7271,7 +5031,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7279,7 +5039,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7287,7 +5047,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7295,7 +5055,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7303,7 +5063,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7311,7 +5071,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7319,7 +5079,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7327,7 +5087,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7337,7 +5097,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7345,7 +5105,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7353,7 +5113,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7361,7 +5121,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7369,7 +5129,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7377,7 +5137,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7385,7 +5145,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7395,7 +5155,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7403,7 +5163,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7411,7 +5171,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7419,7 +5179,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7427,7 +5187,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7435,7 +5195,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7443,7 +5203,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7451,7 +5211,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7459,7 +5219,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7467,7 +5227,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7477,7 +5237,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7485,7 +5245,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7493,7 +5253,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7501,7 +5261,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7509,7 +5269,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7517,7 +5277,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7525,7 +5285,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7535,7 +5295,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7543,7 +5303,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7551,7 +5311,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7559,7 +5319,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7567,7 +5327,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7575,7 +5335,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7583,7 +5343,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7591,7 +5351,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7599,7 +5359,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7607,7 +5367,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7617,7 +5377,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7625,7 +5385,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7633,7 +5393,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7641,7 +5401,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7649,7 +5409,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7657,7 +5417,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7665,7 +5425,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7675,7 +5435,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7683,7 +5443,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7691,7 +5451,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7699,7 +5459,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7707,7 +5467,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7715,7 +5475,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7723,7 +5483,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7731,7 +5491,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7739,7 +5499,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7747,7 +5507,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7757,7 +5517,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7765,7 +5525,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7773,7 +5533,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7781,7 +5541,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7789,7 +5549,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7797,7 +5557,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7805,7 +5565,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7815,7 +5575,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7823,7 +5583,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7831,7 +5591,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7839,7 +5599,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7847,7 +5607,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7855,7 +5615,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7863,7 +5623,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7871,7 +5631,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7879,7 +5639,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7887,7 +5647,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7897,7 +5657,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7905,7 +5665,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7913,7 +5673,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7921,7 +5681,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7929,7 +5689,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7937,7 +5697,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7945,7 +5705,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7955,7 +5715,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -7963,7 +5723,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -7971,7 +5731,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -7979,7 +5739,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -7987,7 +5747,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -7995,7 +5755,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8003,7 +5763,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8011,7 +5771,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8019,7 +5779,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8027,7 +5787,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8037,7 +5797,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8045,7 +5805,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8053,7 +5813,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8061,7 +5821,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8069,7 +5829,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8077,7 +5837,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8085,7 +5845,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8095,7 +5855,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8103,7 +5863,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8111,7 +5871,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8119,7 +5879,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8127,7 +5887,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8135,7 +5895,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8143,7 +5903,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8151,7 +5911,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8159,7 +5919,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8167,7 +5927,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8177,7 +5937,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8185,7 +5945,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8193,7 +5953,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8201,7 +5961,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8209,7 +5969,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8217,7 +5977,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8225,7 +5985,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8235,7 +5995,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8243,7 +6003,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8251,7 +6011,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8259,7 +6019,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8267,7 +6027,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8275,7 +6035,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8283,7 +6043,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8291,7 +6051,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8299,7 +6059,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8307,7 +6067,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8317,7 +6077,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8325,7 +6085,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8333,7 +6093,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8341,7 +6101,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8349,7 +6109,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8357,7 +6117,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8365,7 +6125,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8375,7 +6135,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8383,7 +6143,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8391,7 +6151,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8399,7 +6159,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8407,7 +6167,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8415,7 +6175,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8423,7 +6183,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8431,7 +6191,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8439,7 +6199,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8447,7 +6207,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8457,7 +6217,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8465,7 +6225,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8473,7 +6233,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8481,7 +6241,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8489,7 +6249,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8497,7 +6257,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8505,7 +6265,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8515,7 +6275,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8523,7 +6283,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8531,7 +6291,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8539,7 +6299,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8547,7 +6307,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8555,7 +6315,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8563,7 +6323,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8571,7 +6331,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8579,7 +6339,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8587,7 +6347,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8597,7 +6357,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8605,7 +6365,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8613,7 +6373,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8621,7 +6381,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8629,7 +6389,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8637,7 +6397,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8645,7 +6405,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8655,7 +6415,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8663,7 +6423,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8671,7 +6431,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8679,7 +6439,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8687,7 +6447,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8695,7 +6455,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8703,7 +6463,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8711,7 +6471,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8719,7 +6479,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8727,7 +6487,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 2,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8737,7 +6497,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8745,7 +6505,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8753,7 +6513,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8761,7 +6521,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8769,7 +6529,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8777,7 +6537,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 3,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8785,7 +6545,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 3,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);
@@ -8795,7 +6555,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 2,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-20 11:00:00',
             'booking_end' => '2020-06-20 13:00:00'
         ]);
@@ -8803,7 +6563,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 1,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-21 11:00:00',
             'booking_end' => '2020-06-21 13:00:00'
         ]);
@@ -8811,7 +6571,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-22 13:00:00',
             'booking_end' => '2020-06-22 15:00:00'
         ]);
@@ -8819,7 +6579,7 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 4,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-23 10:00:00',
             'booking_end' => '2020-06-23 12:00:00'
         ]);
@@ -8827,7 +6587,2247 @@ class BookingTransactionSeeder extends Seeder
             'pod_id' => 5,
             'user_id' => 4,
             'status_id' => 1,
-            'price' => 10,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 2,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 3,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 3,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-25 18:00:00',
+            'booking_end' => '2020-06-25 20:00:00'
+        ]);
+
+        
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-22 13:00:00',
+            'booking_end' => '2020-06-22 15:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 4,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
+            'booking_start' => '2020-06-23 10:00:00',
+            'booking_end' => '2020-06-23 12:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 5,
+            'user_id' => 4,
+            'status_id' => 1,
+            'price' => rand(10,100),
             'booking_start' => '2020-06-25 18:00:00',
             'booking_end' => '2020-06-25 20:00:00'
         ]);

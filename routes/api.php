@@ -18,8 +18,11 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/user', function (Request $request) {
         return $request->user();
     });
-    Route::get('/getBookings', 'BookingController@getBookings');
 });
+Route::get('/getBookings', 'BookingController@getBookings');
+Route::get('/getPods', 'PodController@getPods');
+Route::get('/getStatus', 'StatusController@getStatus');
 
 
 Route::post('/login', 'UserController@loginAttempt');
+Route::post('/logout', 'UserController@logoutAttempt');
