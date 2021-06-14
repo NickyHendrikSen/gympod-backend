@@ -15,6 +15,8 @@ class CreatePodsTable extends Migration
     {
         Schema::create('pods', function (Blueprint $table) {
             $table->id();
+            $table->string("pod_name");
+            $table->bigInteger("hourly_price");
             $table->timestamps();
         });
     }

@@ -15,7 +15,15 @@ class CreateBookingTransactionsTable extends Migration
     {
         Schema::create('booking_transactions', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger("pod_id");
+            $table->unsignedBigInteger("user_id");
+            $table->unsignedBigInteger("status_id");
+            $table->dateTime("booking_date");
+            $table->bigInteger("booking_time");
             $table->timestamps();
+            $table->foreign('pod_id')->references('id')->on('pods')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('status_id')->references('id')->on('status')->onDelete('cascade');
         });
     }
 
