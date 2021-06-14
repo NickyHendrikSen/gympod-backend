@@ -21,8 +21,8 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/getBookings', 'BookingController@getBookings');
     Route::get('/getPods', 'PodController@getPods');
     Route::get('/getStatus', 'StatusController@getStatus');
+    Route::get('/getBookingDetail/{id}', 'BookingController@getBookingDetail');
 });
-Route::get('/getBookingDetail/{id}', 'BookingController@getBookingDetail');
 
 
 Route::post('/login', 'UserController@loginAttempt');
