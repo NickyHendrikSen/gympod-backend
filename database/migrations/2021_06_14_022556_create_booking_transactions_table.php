@@ -18,8 +18,9 @@ class CreateBookingTransactionsTable extends Migration
             $table->unsignedBigInteger("pod_id");
             $table->unsignedBigInteger("user_id");
             $table->unsignedBigInteger("status_id");
-            $table->dateTime("booking_date");
-            $table->bigInteger("booking_time");
+            $table->bigInteger("price");
+            $table->dateTime("booking_start");
+            $table->dateTime("booking_end");
             $table->timestamps();
             $table->foreign('pod_id')->references('id')->on('pods')->onDelete('cascade');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

@@ -11,6 +11,21 @@ class BookingTransactionSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 1,
+            'user_id' => 1,
+            'status_id' => 1,
+            'price' => 10,
+            'booking_start' => '2020-06-20 11:00:00',
+            'booking_end' => '2020-06-20 13:00:00'
+        ]);
+        DB::table('booking_transactions')->insert([
+            'pod_id' => 2,
+            'user_id' => 1,
+            'status_id' => 1,
+            'price' => 10,
+            'booking_start' => '2020-06-21 11:00:00',
+            'booking_end' => '2020-06-21 13:00:00'
+        ]);
     }
 }

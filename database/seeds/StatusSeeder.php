@@ -11,6 +11,14 @@ class StatusSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('status')->insert([
+            'status_name' => 'Pending',
+        ]);
+        DB::table('status')->insert([
+            'status_name' => 'Paid',
+        ]);
+        DB::table('status')->insert([
+            'status_name' => 'Cancelled',
+        ]);
     }
 }

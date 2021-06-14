@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([UserSeeder::class,
                     PodSeeder::class,
-                    Status::class,
+                    StatusSeeder::class,
                     BookingTransactionSeeder::class]);
     }
 }
