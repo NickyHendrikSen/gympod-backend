@@ -37,4 +37,16 @@ class BookingController extends Controller
 
         return response()->json($bookings,200);
     }
+
+    function getBookingDetail(Request $request){
+        $booking = DB::table("booking_transactions")
+        ->join("pods", "booking_transactions.pod_id", "=", "pods.id")
+        ->join("users", "booking_transactions.user_id", "=", "users.id")
+        ->join("status", "booking_transactions.status_id", "=", "status.id")
+        ->where("booking_transactions.id", $request->id)
+        ->select("pod_name", "user_name", "phone", "status_name as status", "price", "booking_start", "booking_end")
+        ->first();
+        
+        return response()->json($booking,200);
+    }
 }

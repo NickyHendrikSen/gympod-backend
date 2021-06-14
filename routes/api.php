@@ -18,10 +18,11 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/user', function (Request $request) {
         return $request->user();
     });
+    Route::get('/getBookings', 'BookingController@getBookings');
+    Route::get('/getPods', 'PodController@getPods');
+    Route::get('/getStatus', 'StatusController@getStatus');
 });
-Route::get('/getBookings', 'BookingController@getBookings');
-Route::get('/getPods', 'PodController@getPods');
-Route::get('/getStatus', 'StatusController@getStatus');
+Route::get('/getBookingDetail/{id}', 'BookingController@getBookingDetail');
 
 
 Route::post('/login', 'UserController@loginAttempt');
