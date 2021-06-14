@@ -15,10 +15,17 @@ class UserController extends Controller
         $password = $request->password;
         if (!Auth::attempt(['user_name' => $user_name, 'password' => $password])) {
             return response()->json([
-                'errors' => 'Invalid Credentials'
-            ]);
+                'errors' => 'Wrong credentials'
+            ], 422);
         }
         $user = User::where('user_name', $user_name)->first();
+        
+        if(!$user->is_admin){
+            return response()->json([
+                'errors' => 'This user is not an admin'
+            ], 422);
+        }
+
         $authToken = $user->createToken('auth-token')->plainTextToken;
 
         return response()->json([
