@@ -25,15 +25,15 @@ class BookingController extends Controller
             $bookings = $bookings->where("pod_id", $pod_id);
         }
         if($start_date != null){
-            $bookings = $bookings->where("booking_start", ">=" ,$start_date);
+            $bookings = $bookings->whereDate("booking_start", ">=" ,$start_date);
         }
         if($end_date != null){
-            $bookings = $bookings->where("booking_start", "<=" ,$end_date);
+            $bookings = $bookings->whereDate("booking_start", "<=" ,$end_date);
         }
         
 
         $bookings = $bookings->select("booking_transactions.id as id", "pod_name", "user_name", "phone", "status_name as status", "price", "booking_start", "booking_end")
-        ->paginate(5);
+        ->paginate(10);
 
         return response()->json($bookings,200);
     }
